@@ -1,0 +1,58 @@
+ul li {
+	text-decoration: none;
+	margin: 20px 0px 20px;
+	padding: 20px 10px 20px;
+	display: block;
+	border: 2px solid green;
+	background-color: lightgray;
+
+}
+ul {
+	display: block;
+}
+h1 {
+	padding-left: 40px;		
+}
+.headerTitle {
+	font-size: 36px;
+	text-align: center;
+}
+.score {
+	font-size: 24px;
+	text-align: center;	
+}
+.score .score__result {
+	font-weight: strong;
+	font-size: 28px;
+}
+.content {
+	height: 450px;
+	width: 100%;
+}
+.albumList, .gamecontent {
+	display: inline-block;
+	/*max-width: 50%;*/
+	/*min-width: 50%;*/
+	float: left;
+}
+.albumList {
+	min-width: 30%;
+    max-width: 30%;
+}
+.gamecontent{
+	/*padding-top: 105px;*/
+	/*float: right;*/
+	padding: 120px 0px 0px 20px;
+}
+.hint {
+	float: left;
+}
+img {
+	padding-left: 10px;
+}
+body {
+	font-family: cursive;
+}
+form label {
+	display: block;
+}
